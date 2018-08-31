@@ -24,7 +24,6 @@ class AdminController extends Controller
      */
     public function dashboard()
     {
-        dd('asdf');
         return view('home');
     }
 }
